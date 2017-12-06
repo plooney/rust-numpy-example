@@ -1,0 +1,12 @@
+[package]
+name = "pyext-example"
+version = "0.1.0"
+authors = ["fx_kirin"]
+
+[dependencies]
+numpy = { git = "https://github.com/termoshtt/rust-numpy" }
+cpython = "0.1"
+ndarray = "0.10"
+
+[lib]
+crate-type = ["cdylib"]

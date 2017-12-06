@@ -1,4 +1,4 @@
 # rust-numpy-example
 Rust numpy example for my blog post.
 
-https://github.com/fx-kirin/rust-numpy-example
+http://fx-kirin.com/python/rust-numpy-example/

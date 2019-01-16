@@ -29,7 +29,7 @@ if __name__ == '__main__':
         def _(bm):
             for i in bm:
                 fn.clibrary.sum(a)
-                
+
         @bench("rust_binding.sum")
         def _(bm):
             for i in bm:

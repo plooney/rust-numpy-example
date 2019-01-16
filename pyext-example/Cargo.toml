@@ -3,10 +3,14 @@ name = "pyext-example"
 version = "0.1.0"
 authors = ["fx_kirin"]
 
-[dependencies]
-numpy = { git = "https://github.com/termoshtt/rust-numpy" }
-cpython = "0.1"
-ndarray = "0.10"
-
 [lib]
+name = "pyext"
 crate-type = ["cdylib"]
+
+[dependencies]
+numpy = "0.4.0"
+ndarray = "0.12"
+
+[dependencies.pyo3]
+version = "0.5.3"
+features = ["extension-module"]

@@ -4,13 +4,10 @@ version = "0.1.0"
 authors = ["fx_kirin"]
 
 [lib]
-name = "pyext"
+name = "rust_ext"
 crate-type = ["cdylib"]
 
 [dependencies]
-numpy = "0.4.0"
+numpy = "0.15.1"
 ndarray = "0.12"
-
-[dependencies.pyo3]
-version = "0.5.3"
-features = ["extension-module"]
+pyo3 = { version = "0.15", features = ["extension-module"] }
